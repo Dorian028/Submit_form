@@ -31,11 +31,15 @@ header {
   box-sizing: border-box;
 }
 main {
-  border-top: black double 5px;
+  border-top: black solid 5px;
   width:95%;
   margin: auto;
   padding:auto;
   
+}
+form {
+  border-top: black solid 1px;
+  margin-top: 2px;
 }
 .inputbox  {
   background-color: rgb(199, 216, 216);
@@ -105,7 +109,7 @@ fieldset {
 }
 @media (min-width: 768px) {
 .wrapper {
-  width:80%;
+  width:70%;
   justify-content: center;
   margin: auto;
 }
@@ -117,15 +121,23 @@ fieldset {
   flex-wrap: wrap;
 }
 .inputbox {
-  flex-basis: 84%;
+  flex-basis: 75%;
   margin-top: 20px;
 }
 .label {
-  flex-basis: 15%;
+  flex-basis: 20%;
   margin-top: 20px;
 }
 button {
   margin:auto;
   align-items: center;
+  display: block;
+}
+textarea {
+  width:100%;
+}
+#title {
+  display:block;
+  width: 100%;
 }
 }
