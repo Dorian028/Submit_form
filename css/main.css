@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  text-align:left
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+header {
+  text-align: center;
+
+}
+#title {
+  background-color: rgb(61, 60, 75);
+  color: white;
+  margin: 0;
+  padding: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+main {
+  border-top: black double 5px;
+  width:95%;
+  margin: auto;
+  padding:auto;
+  
+}
+.inputbox  {
+  background-color: rgb(199, 216, 216);
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  width:100%;
+  
+}
+.inputbox:last-child {
+  width:50%;
+}
+.heading {
+  font-size: 1.75em;
+  padding-top: 20px;
+  font-weight: bold;
+}
+#newsletter {
+  padding-top: 20px;
+  
+}
+.light {
+  display: inline;
+ line-height: 1.5;
+}
+p {
+  font-size: 1.25rem;
+}
+textarea {
+  height: 150px;
+  width:100%;
+  background-color: rgb(199, 216, 216);
+  border: none;
+}
+.newsletter {
+  border-top: solid rgb(19, 18, 18) 3px;
+}
+button {
+  background-color: rgb(137, 201, 195);
+  color: white;
+  width:95%;
+  margin: auto;
+  padding:20px;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+}
+fieldset {
+  border: none;
+}
+::placeholder {
+  text-align: right;
+}
+:-ms-input-placeholder {
+  text-align: right;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+.wrapper {
+  width:80%;
+  justify-content: center;
+  margin: auto;
+}
+#title {
+  width:100%;
+}
+.fieldset_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputbox {
+  flex-basis: 84%;
+  margin-top: 20px;
+}
+.label {
+  flex-basis: 15%;
+  margin-top: 20px;
+}
+button {
+  margin:auto;
+  align-items: center;
+}
+}
