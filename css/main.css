@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
+input:focus .inputbox:focus option:focus textarea:focus {
+  border-bottom: dotted red 2px;
+  background-color: aqua;
+}
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
@@ -100,9 +103,7 @@ fieldset {
 ::placeholder {
   text-align: right;
 }
-:-ms-input-placeholder {
-  text-align: right;
-}
+
 #wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -142,5 +143,8 @@ textarea {
 }
 .header_text {
   display: block;
+}
+.inputbox:last-child {
+  max-width: 25%;
 }
 }
