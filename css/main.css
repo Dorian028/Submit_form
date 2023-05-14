@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-input:focus .inputbox:focus option:focus textarea:focus {
+input:focus, .inputbox:focus, option:focus, textarea:focus {
   border-bottom: dotted red 2px;
-  background-color: aqua;
+  background-color: rgb(161, 202, 202);
 }
 body {
   font-family: 'Nunito', sans-serif;
@@ -34,11 +34,19 @@ header {
   box-sizing: border-box;
 }
 main {
-  border-top: black solid 5px;
   width:95%;
   margin: auto;
   padding:auto;
   
+}
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 5px;
+    background: black;
+    width: 49%;
+
 }
 form {
   border-top: black solid 1px;
@@ -146,5 +154,8 @@ textarea {
 }
 .inputbox:last-child {
   max-width: 25%;
+}
+main {
+  width:70%;
 }
 }
