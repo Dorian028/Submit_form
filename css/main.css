@@ -103,15 +103,15 @@ fieldset {
 :-ms-input-placeholder {
   text-align: right;
 }
-.wrapper {
+#wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 @media (min-width: 768px) {
-.wrapper {
-  width:70%;
+#wrapper { 
   justify-content: center;
   margin: auto;
+  width: 70%;
 }
 #title {
   width:100%;
@@ -139,5 +139,8 @@ textarea {
 #title {
   display:block;
   width: 100%;
+}
+.header_text {
+  display: block;
 }
 }
