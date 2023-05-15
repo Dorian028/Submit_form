@@ -44,7 +44,8 @@ hr {
     border: none;
     height: 5px;
     background: black;
-    width: 49%;
+    width: 450px;
+    max-width: 95%;
 
 }
 form {
@@ -114,12 +115,21 @@ fieldset {
 #wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media (min-width: 768px) {
 #wrapper { 
   justify-content: center;
   margin: auto;
-  width: 70%;
+  width: 80%;
+}
+hr {
+position: relative;
+top: 20px;
+border: none;
+height: 5px;
+background: black;
+width: 56%;
 }
 #title {
   width:100%;
